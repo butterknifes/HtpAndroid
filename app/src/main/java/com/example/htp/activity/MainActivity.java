@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.example.htp.com.example.htp.utils.AppUtil;
+import com.example.htp.utils.AppUtil;
 import com.example.htp.htpandroidframe.Custom;
 import com.example.htp.htpandroidframe.PrefConstants;
 import com.example.htp.htpandroidframe.ProductTourActivity;

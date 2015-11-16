@@ -1,4 +1,4 @@
-package com.example.htp.com.example.htp.utils;
+package com.example.htp.utils;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
