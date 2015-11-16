@@ -15,5 +15,49 @@
     <string name="welcom_content_03">Never lose your progress, so you can keep working from any computer or device.</string>
     <string name="welcom_head_04">Edit Excel spreadsheets</string>
     <string name="welcom_content_04">Open, edit, and save Excel files - all within Sheets.</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="press_again_exit">再按一次退出</string>
 
+    <string-array name="nav_drawer_items">
+        <item>我的主页</item>
+        <item>我的空间</item>
+        <item>我的收藏</item>
+        <item>更多</item>
+        <!--
+             <item>...</item>
+        <item>...</item>
+        -->
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_whats_hot</item>
+        <item>@drawable/ic_pages</item>
+
+    </array>
+
+    <string name="no_net">联网失败，请重试</string>
+    <string name="reload">重试</string>
+    <string name="about_us">关于我们</string>
+    <string name="updata_text">检测更新</string>
+    <string name="about">&#160;&#160; &#x000A;&#x000D;&#160;&#160;&#160;&#160;本软件安装、下载使用过程中完全免费且无广告，联网所产生的流量费用由网络运营商收取。软件中刊载的所有内容（文字、图片等）均来源于网络，并非本人收集存储，且并不以此牟利，如版权作者对此存在异议请及时与本人联系，本人将妥善处理。本软件免费供大家体验，望在您享受本软件带来的便利的同时尊重软件开发者的合法权益，勿将其用于商业用途。如有意见或建议欢迎与我们联系，谢谢！</string>
+
+    <string name="text_mobile_register_in_app_tips">您已有一个账号:%s，设置密码后，可通过手机号+密码登录</string>
+    <string name="btn_complete">完成</string>
+    <string name="copy">复制</string>
+    <string name="delete">删除</string>
+    <string name="copy_success">复制成功</string>
+    <string name="deleting">正在删除…</string>
+    <string name="delete_success">删除成功</string>
+    <string name="delete_faile">删除失败</string>
+    <string name="tip_no_internet">当前没有可用的网络链接</string>
+    <string name="tip_please_input_username">请输入用户名</string>
+    <string name="tip_please_input_checkcode">请输入验证码</string>
+    <string name="tip_please_input_password">请输入密码</string>
+    <string name="progress_login">正在登录…</string>
+    <string name="tip_login_error_for_network">对不起,无法登录</string>
+    <string name="error_msg">抱歉，网络连接失败，请稍候再试！</string>
+    <string name="desc_list_item_icon">Item Icon</string>
 </resources>

@@ -2,12 +2,12 @@ package com.example.htp.activity;
 
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
-import android.databinding.ViewDataBinding;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 import com.example.htp.com.example.htp.utils.AppUtil;
@@ -17,8 +17,19 @@ import com.example.htp.htpandroidframe.ProductTourActivity;
 import com.example.htp.htpandroidframe.R;
 import com.example.htp.model.User;
 
+import butterknife.Bind;
+
 
 public class MainActivity extends AppCompatActivity {
+
+    @Bind(R.id.btn_product_tour)
+    Button btnProductTour;
+    @Bind(R.id.btn_product_tour2)
+    Button btnProductTour2;
+    @Bind(R.id.btn_product_tour3)
+    Button btnProductTour3;
+    @Bind(R.id.btn_product_tour4)
+    Button btnProductTour4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +37,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         View view = this.getLayoutInflater().inflate(R.layout.activity_main, null);
-        Custom binding =  DataBindingUtil.setContentView(this, R.layout.activity_main);
+        Custom binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
+
         if (view == null) {
             Toast.makeText(MainActivity.this, "null", Toast.LENGTH_SHORT).show();
         }

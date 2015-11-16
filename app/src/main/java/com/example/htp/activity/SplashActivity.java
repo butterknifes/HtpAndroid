@@ -1,4 +1,4 @@
-package com.example.htp.htpandroidframe;
+package com.example.htp.activity;
 /**
  * 启动过渡页
  * htp
@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 
-import com.example.htp.activity.MainActivity;
+import com.example.htp.htpandroidframe.R;
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -21,7 +21,7 @@ public class SplashActivity extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(SplashActivity.this, MainActivity.class));
+                startActivity(new Intent(SplashActivity.this, NavigationActivity.class));
                 overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
                 new Handler().postDelayed(new Runnable() {
 					
