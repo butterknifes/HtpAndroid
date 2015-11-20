@@ -7,20 +7,20 @@
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
     -
     <application
-        android:name="com.example.htp.global.AppContext"
+        android:name="com.example.htp.AppContext"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
 
         <activity
-            android:name="com.example.htp.activity.MainActivity"
+            android:name="com.example.htp.ui.activity.MainActivity"
             android:label="@string/app_name"></activity>
 
 
         -
         <activity
-            android:name="com.example.htp.activity.SplashActivity"
+            android:name="com.example.htp.ui.activity.SplashActivity"
             android:label="@string/app_name"
             android:theme="@style/SplashTheme">
 
@@ -37,7 +37,7 @@
         </activity>
 
         <activity
-            android:name="com.example.htp.activity.NavigationActivity"
+            android:name="com.example.htp.ui.activity.NavigationActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme"
             android:windowSoftInputMode="adjustUnspecified|stateHidden" />

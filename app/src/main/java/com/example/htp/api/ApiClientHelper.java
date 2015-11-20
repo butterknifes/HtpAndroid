@@ -1,7 +1,7 @@
 package com.example.htp.api;
 
 
-import com.example.htp.global.AppContext;
+import com.example.htp.AppContext;
 
 public class ApiClientHelper {
 	

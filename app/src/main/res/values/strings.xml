@@ -132,6 +132,38 @@
     <string name="unlogin_tip">您还未登录\r\n或网络延迟</string>
     <string name="my_information_unlogin_tips">未登录</string>
 
+    <string name="friend_home">查看对方资料</string>
+    <string name="share_to">分享到</string>
+    <string name="platform_qq">QQ</string>
+    <string name="platform_copy_link">复制链接</string>
+    <string name="platform_more_option">更多</string>
+    <string name="platform_sina">微博</string>
+    <string name="platform_weichat">微信</string>
+    <string name="platform_weichat_circle">朋友圈</string>
+    <string name="share_title">分享</string>
+    <string name="share_title_news">资讯分享</string>
+    <string name="share_title_blog">博客分享</string>
+    <string name="share_title_soft">软件分享</string>
+    <string name="share_title_post">帖子分享</string>
+    <string name="tip_start_share">开始分享…</string>
+    <string name="tip_share_done">分享完成</string>
 
 
+    <!-- qucik option -->
+    <string name="quick_option_text">文字</string>
+    <string name="quick_option_album">相册</string>
+    <string name="quick_option_photo">拍照</string>
+    <string name="quick_option_voice">语音</string>
+    <string name="quick_option_note">便签</string>
+    <string name="quick_option_scan">扫一扫</string>
+    <string name="quick_option_find">找人</string>
+
+    <string name="report">举报</string>
+    <string name="report_link">链接地址</string>
+    <string name="report_reson">举报原因</string>
+    <string name="hint_report_desc">其他原因</string>
+    <string name="tip_report_success">举报成功</string>
+    <string name="tip_report_faile">举报失败</string>
+
+    <string name="tip_double_click_exit">再次点击退出</string>
 </resources>
