@@ -166,4 +166,5 @@
     <string name="tip_report_faile">举报失败</string>
 
     <string name="tip_double_click_exit">再次点击退出</string>
+    <string name="title_activity_login">LoginActivity</string>
 </resources>
